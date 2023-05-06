@@ -1,13 +1,22 @@
 {
-  "name": "server",
+  "name": "dashboard",
   "version": "1.0.0",
-  "main": "index.js",
+  "description": "",
   "scripts": {
     "build": "echo \"No build specified\" && exit 1",
     "test": "echo \"No test specified\" && exit 1",
     "start": "node index.js"
   },
-  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arslandeveloper1212/dashboard.git"
+  },
+ 
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/arslandeveloper1212/dashboard/issues"
+  },
+  "homepage": "https://github.com/arslandeveloper1212/dashboard#readme",
   "dependencies": {
     "bcrypt": "^5.1.0",
     "bcryptjs": "^2.4.3",
