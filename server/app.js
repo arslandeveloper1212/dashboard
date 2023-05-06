@@ -1,4 +1,5 @@
 const env = require('dotenv');
+const path = require("path")
 const express = require("express")
 const cookieParser = require("cookie-parser");
 const app = express();
@@ -14,6 +15,13 @@ app.use(cookieParser());
 app.use(require("./router/auth"));
 app.use (require("./models/userSchema"));
 
+
+app.use(express.static(path.join(__dirname, './client/build')));
+
+app.get('*', function (req, res) {
+  res.sendFile(path.join(__dirname, "./client/build/index.html"));
+  
+});
 
 
 
