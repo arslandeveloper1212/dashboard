@@ -1,4 +1,5 @@
-{
+
+  {
   "name": "dashboard",
   "version": "1.0.0",
   "description": "",
@@ -17,6 +18,7 @@
     "url": "https://github.com/arslandeveloper1212/dashboard/issues"
   },
   "homepage": "https://github.com/arslandeveloper1212/dashboard#readme",
+
   "dependencies": {
     "bcrypt": "^5.1.0",
     "bcryptjs": "^2.4.3",
