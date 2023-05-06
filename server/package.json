@@ -2,6 +2,11 @@
   "name": "server",
   "version": "1.0.0",
   "main": "index.js",
+  "scripts": {
+            "build": "echo \"No build specified\" && exit 1",
+            "test": "echo \"No test specified\" && exit 1",
+           "start": "node index.js"
+       },
   "license": "MIT",
   "dependencies": {
     "bcrypt": "^5.1.0",
